@@ -1,0 +1,79 @@
+
+body {
+    margin: 30px;
+    color: rgb(4, 15, 46);
+}
+/* Header */
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header > p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header_right {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.header_right p {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/* Main */
+main {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    column-gap: 20px;
+}
+
+main > img {
+    margin-right: 30px;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.left_main {
+    position: relative;
+}
+
+.left_main > p:first-child {
+    margin-top: 30px;
+    color: rgb(180, 164, 45);
+}
+
+.about_me {
+    color: rgb(68, 66, 66);
+}
+
+.projects_btn, .linkedin_btn {
+    width: 80px;
+    height: 24px;
+    border-radius: 5px;
+}
+
+.projects_btn {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(210, 189, 30);
+    border: none;
+}
+
+.linkedin_btn {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    border: 2px solid gray;
+
+}
